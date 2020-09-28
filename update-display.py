@@ -15,6 +15,7 @@ from font_source_sans_pro import SourceSansPro
 from font_caladea import Caladea
 from font_roboto import Roboto
 from font_amatic_sc import AmaticSC
+from font_raleway import Raleway
 
 if "DEBUG" in os.environ:
     logging.basicConfig(level=logging.DEBUG)
