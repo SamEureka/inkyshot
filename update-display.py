@@ -16,7 +16,7 @@ from font_caladea import Caladea
 from font_roboto import Roboto
 from font_amatic_sc import AmaticSC
 
-Raleway = ImageFont.load("/usr/app/fonts/Raleway.ttf")
+Raleway = "/usr/app/fonts/Raleway.ttf"
 
 if "DEBUG" in os.environ:
     logging.basicConfig(level=logging.DEBUG)
